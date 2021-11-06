@@ -78,36 +78,45 @@ MRJOKER_AUD = "https://audio.jukehost.co.uk/kKJkdHgoMPeqdel4sDrEHr7m4U6o4Xya"
 
 
 PM_START_TEXT = """
-*Hello there*, *I*'*m* [𝓜𝓻,𝓙𝓸𝓴𝓮𝓻](https://telegra.ph/file/6525d89de5b72003d80fa.png)
-*I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group*
-🍃🔻 **Make sure you read** `INFO` **Section Below** 🔺🍃 
-"""
+Hello I'm [𝕾𝖍𝖚 𝖐𝖚𝖗𝖊𝖓𝖆𝖎](https://telegra.ph/file/d20c98947f200899c2fa6.jpg) ,
+➪ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴀᴅᴍɪɴ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴇxᴘʟᴏsɪᴠᴇ.
+➪ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Deepak] ғᴏʀ ᴀɴʏ ǫᴜᴇʀʏ ᴀɴᴅ [Deepak](https://t.me/deepakjack007) ʜᴇʀᴇ.
+➪ ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ʜᴇʟᴘ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ ᴀɴᴅ ᴍʏ ғᴇᴀᴛᴜʀᴇs.
+➪ Pᴏᴡᴇʀᴇᴅ ʙʏ [𝕾𝖍𝖚 𝖐𝖚𝖗𝖊𝖓𝖆𝖎](https://t.me/Hollywood_movies_forever) 
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="🤡 𝗛𝗘𝗟𝗣 🤡", callback_data="help_back"),
+            text="➕️ Aᴅᴅ 𝕾𝖍𝖚 𝖐𝖚𝖗𝖊𝖓𝖆𝖎 ᴛᴏ ɢʀᴏᴜᴘ ➕️", url="t.me/Shu_kurenai_ro_bot?startgroup=true"),
     ],
-   # [
-     #   InlineKeyboardButton(
-     #       text ="Language", callback_data="set_lang_"),
-    #],
     [
-        InlineKeyboardButton(text="🚀 𝗜𝗡𝗙𝗢 🚀", callback_data="mrjoker_"),
+        InlineKeyboardButton(text="❓𝐇𝐞𝐥𝐩", callback_data="help_back"),
+    ],
+    [
         InlineKeyboardButton(
-            text=" 𝗕𝗔𝗦𝗜𝗖 𝗛𝗘𝗟𝗣 👮", callback_data="mrjoker_basichelp"
-        ),
+            text="🔥𝐋𝐨𝐠𝐬🔥", url="https://t.me/shukurenai007"),
+        InlineKeyboardButton(
+            text="🎉𝐒𝐮𝐩𝐩𝐨𝐫𝐭🎉", url="https://t.me/shukurenairobot007"),
     ],
-    
+    [  
+        InlineKeyboardButton(text="👨‍💻𝐎𝐰𝐧𝐞𝐫👨‍💻", url="https://t.me/deepakjack007"
+    ),
+    ], 
     [
-        InlineKeyboardButton(text="➕ 𝐀𝐃𝐃 𝐌𝐑.𝐉𝐎𝐊𝐄𝐂 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕", url="http://t.me/Mrjokerlk_bot?startgroup=true"),
+        InlineKeyboardButton(text="🍿𝐌𝐨𝐯𝐢𝐞𝐬🍿", url="https://t.me/joinchat/r9qx47U5xEZjY2E1"
+    ), 
+    ],
+    [   
+        InlineKeyboardButton(text="💥𝐔𝐩𝐝𝐚𝐭𝐞𝐬💥", url="https://t.me/shukurenai007"
+    ),
     ],
 ]
 
-
 HELP_STRINGS = """
-**SETTINGS**
-**𝐂𝐥𝐢𝐜𝐤 𝐨𝐧 𝐭𝐡𝐞 𝐛𝐮𝐭𝐭𝐨𝐧𝐬 𝐛𝐞𝐥𝐨𝐰 𝐭𝐨 𝐠𝐞𝐭 𝐝𝐨𝐜𝐮𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧 𝐚𝐛𝐨𝐮𝐭 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐜 𝐦𝐨𝐝𝐮𝐥𝐞𝐬**[🤖](https://telegra.ph/file/6525d89de5b72003d80fa.png)"""
+*༆𝕾𝖍𝖚 𝖐𝖚𝖗𝖊𝖓𝖆𝖎 comes with many special features in it༆
+꧁CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF 𝕾𝖍𝖚 𝖐𝖚𝖗𝖊𝖓𝖆𝖎꧂
+𖣘 All commands can either be used with / or !.
+𖣘 If you facing any issue or find any bugs in any command then you can report it @shukurenairobot007 /  @Hollywood_movies_forever* [.](https://telegra.ph/file/676af13bd204af54a41b5.jpg)"""
 
 
 
@@ -308,7 +317,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "❮❮❮❮🤡 𝗠𝗿.𝗝𝗼𝗸𝗲𝗿 𝗛𝗲𝗹𝗽 𝗳𝗼𝗿 *{}* 𝗺𝗼𝗱𝘂𝗹𝗲 🤡❯❯❯❯:\n".format(
+                "❮❮❮❮😎 𝕾𝖍𝖚 𝖐𝖚𝖗𝖊𝖓𝖆𝖎 𝗛𝗲𝗹𝗽 𝗳𝗼𝗿 *{}* 𝗺𝗼𝗱𝘂𝗹𝗲 😎❯❯❯❯:\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
